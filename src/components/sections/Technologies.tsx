@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { technologies, technologyCategories } from "@/content/technologies";
-import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 
 export function Technologies() {

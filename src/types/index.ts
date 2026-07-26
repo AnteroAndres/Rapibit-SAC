@@ -8,14 +8,16 @@ export interface Service {
 
 export interface Project {
   id: string;
-  name: string;
+  title: string;
+  category: string;
   sector: string;
-  problem: string;
-  solution: string;
+  description: string;
+  solutions: string[];
   technologies: string[];
-  results: string;
-  image: string;
-  link?: string;
+  result: string;
+  visibility: "public" | "anonymous" | "confidential";
+  featured: boolean;
+  order: number;
 }
 
 export interface TeamMember {
@@ -29,7 +31,7 @@ export interface TeamMember {
 export interface Technology {
   name: string;
   icon: string;
-  category: "backend" | "frontend" | "cloud" | "database" | "devops" | "security" | "ai";
+  category: "backend" | "frontend" | "cloud" | "database" | "devops" | "security" | "ai" | "integration";
 }
 
 export interface NavItem {
@@ -71,4 +73,15 @@ export interface Stat {
   label: string;
   value: string;
   suffix?: string;
+}
+
+export interface AISolution {
+  id: string;
+  title: string;
+  description: string;
+  capabilities: string[];
+  technologies: string[];
+  icon: string;
+  featured: boolean;
+  order: number;
 }

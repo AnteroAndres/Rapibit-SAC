@@ -4,6 +4,7 @@ import { siteConfig } from "@/config/site";
 import {
   generateOrganizationSchema,
   generateProfessionalServiceSchema,
+  generateAISolutionSchema,
 } from "@/lib/seo";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -62,6 +63,7 @@ export default function RootLayout({
             __html: JSON.stringify([
               generateOrganizationSchema(),
               generateProfessionalServiceSchema(),
+              generateAISolutionSchema(),
             ]),
           }}
         />

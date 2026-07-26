@@ -92,6 +92,25 @@ export function generateProfessionalServiceSchema() {
       "Transformación digital",
       "Automatización",
       "Infraestructura tecnológica",
+      "Inteligencia artificial",
     ],
+  };
+}
+
+export function generateAISolutionSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: "Inteligencia artificial aplicada",
+    provider: {
+      "@type": "Organization",
+      name: siteConfig.name,
+    },
+    areaServed: {
+      "@type": "Country",
+      name: "Perú",
+    },
+    description:
+      "Soluciones de inteligencia artificial para automatizar procesos, consultar información empresarial, asistir a usuarios y mejorar la productividad.",
   };
 }

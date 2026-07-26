@@ -1,11 +1,12 @@
-import { ArrowRight, MessageSquare } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 const stats = [
-  { label: "Sectores atendidos", value: "8+" },
-  { label: "Tecnologías dominadas", value: "30+" },
-  { label: "Especialistas", value: "12+" },
+  { label: "Experiencia multisectorial", value: "8+ sectores" },
+  { label: "Equipo multidisciplinario", value: "6+ profesionales" },
+  { label: "Tecnologías modernas", value: "30+ herramientas" },
+  { label: "Soluciones escalables", value: "Cloud & DevOps" },
 ];
 
 export function Hero() {
@@ -48,7 +49,7 @@ export function Hero() {
             </Button>
           </div>
 
-          <div className="grid grid-cols-3 gap-8 pt-12 max-w-lg">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 pt-12 max-w-lg">
             {stats.map((stat) => (
               <div key={stat.label}>
                 <div className="text-2xl sm:text-3xl font-bold text-white">{stat.value}</div>

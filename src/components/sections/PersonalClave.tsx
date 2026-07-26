@@ -3,8 +3,6 @@
 import { useState } from "react";
 import {
   User,
-  ChevronDown,
-  ChevronUp,
   GraduationCap,
   Briefcase,
   Award,
@@ -12,7 +10,6 @@ import {
   FolderOpen,
   BookOpen,
   ShieldCheck,
-  X,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
