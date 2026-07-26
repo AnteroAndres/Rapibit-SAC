@@ -178,7 +178,7 @@ export default function ProyectosPage() {
     <>
       <section className="pt-32 pb-20 bg-hero-gradient relative overflow-hidden">
         <div className="absolute inset-0 bg-grid opacity-30" />
-        <div className="relative container mx-auto px-4 lg:px-8">
+        <div className="relative mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-8 xl:px-12">
           <div className="max-w-3xl space-y-6">
             <h1 className="text-4xl sm:text-5xl font-bold text-white">
               Proyectos tecnológicos
@@ -192,7 +192,7 @@ export default function ProyectosPage() {
       </section>
 
       <section className="py-20 lg:py-28 bg-background">
-        <div className="container mx-auto px-4 lg:px-8">
+        <div className="mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-8 xl:px-12">
           <div className="bg-accent/5 border border-accent/20 rounded-xl p-4 mb-12 text-center">
             <p className="text-sm text-muted-foreground">
               Los proyectos presentados corresponden a la experiencia profesional previa y acumulada

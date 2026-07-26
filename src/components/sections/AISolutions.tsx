@@ -32,7 +32,7 @@ export function AISolutions() {
       <div className="absolute inset-0 bg-grid opacity-20" />
       <div className="absolute inset-0" style={{ background: "radial-gradient(ellipse at 30% 50%, rgba(0, 212, 255, 0.08) 0%, transparent 60%)" }} />
 
-      <div className="relative container mx-auto px-4 lg:px-8">
+      <div className="relative mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-8 xl:px-12">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <Badge className="mb-4 bg-accent/20 text-accent border-accent/30">
             IA + automatización + integración empresarial

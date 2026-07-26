@@ -42,7 +42,7 @@ export default function ServiciosPage() {
     <>
       <section className="pt-32 pb-20 bg-hero-gradient relative overflow-hidden">
         <div className="absolute inset-0 bg-grid opacity-30" />
-        <div className="relative container mx-auto px-4 lg:px-8">
+        <div className="relative mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-8 xl:px-12">
           <div className="max-w-3xl space-y-6">
             <h1 className="text-4xl sm:text-5xl font-bold text-white">
               Nuestros servicios
@@ -56,7 +56,7 @@ export default function ServiciosPage() {
       </section>
 
       <section className="py-20 lg:py-28 bg-background">
-        <div className="container mx-auto px-4 lg:px-8">
+        <div className="mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-8 xl:px-12">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {services.map((service) => {
               const Icon = iconMap[service.icon] || Code2;

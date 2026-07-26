@@ -81,7 +81,7 @@ function ProfessionalCard({
         </div>
 
         <div className="mb-4">
-          <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground/60 mb-2">
+          <p className="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">
             Especialidades
           </p>
           <div className="flex flex-wrap gap-1.5">
@@ -98,7 +98,7 @@ function ProfessionalCard({
         </div>
 
         <div className="mb-5">
-          <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground/60 mb-2">
+          <p className="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">
             Tecnologías principales
           </p>
           <div className="flex flex-wrap gap-1.5">
@@ -293,7 +293,7 @@ export function PersonalClave() {
   return (
     <section id="personal-clave" className="py-20 lg:py-28 bg-hero-gradient relative overflow-hidden scroll-mt-20">
       <div className="absolute inset-0 bg-grid opacity-20" />
-      <div className="relative container mx-auto px-4 lg:px-8">
+      <div className="relative mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-8 xl:px-12">
         <div className="text-center max-w-2xl mx-auto mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-white">
             Personal clave

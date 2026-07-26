@@ -7,7 +7,7 @@ export function CTA() {
   return (
     <section className="py-20 lg:py-28 bg-hero-gradient relative overflow-hidden">
       <div className="absolute inset-0 bg-grid opacity-20" />
-      <div className="relative container mx-auto px-4 lg:px-8">
+      <div className="relative mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-8 xl:px-12">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white">
             Conversemos sobre tu próximo proyecto

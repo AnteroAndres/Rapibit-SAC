@@ -17,7 +17,7 @@ export default function NosotrosPage() {
     <>
       <section className="pt-32 pb-20 bg-hero-gradient relative overflow-hidden">
         <div className="absolute inset-0 bg-grid opacity-30" />
-        <div className="relative container mx-auto px-4 lg:px-8">
+        <div className="relative mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-8 xl:px-12">
           <div className="max-w-3xl space-y-6">
             <h1 className="text-4xl sm:text-5xl font-bold text-white">
               Sobre nosotros
@@ -32,7 +32,7 @@ export default function NosotrosPage() {
       </section>
 
       <section className="py-20 lg:py-28 bg-background">
-        <div className="container mx-auto px-4 lg:px-8">
+        <div className="mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-8 xl:px-12">
           <div className="max-w-3xl mx-auto space-y-12">
             <div className="space-y-4">
               <h2 className="text-3xl font-bold text-foreground">Nuestra misión</h2>

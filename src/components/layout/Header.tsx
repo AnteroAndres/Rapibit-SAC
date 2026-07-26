@@ -27,7 +27,7 @@ export function Header() {
           : "bg-transparent"
       )}
     >
-      <div className="container mx-auto flex h-16 items-center justify-between px-4 lg:px-8">
+      <div className="mx-auto flex h-16 w-full max-w-[1440px] items-center justify-between px-4 sm:px-6 lg:px-8 xl:px-12">
         <Link href="/" className="flex items-center gap-2 font-bold text-xl">
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground text-sm">
             R

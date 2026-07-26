@@ -182,7 +182,7 @@ export function Projects() {
 
   return (
     <section className="py-20 lg:py-28 bg-muted/30">
-      <div className="container mx-auto px-4 lg:px-8">
+      <div className="mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-8 xl:px-12">
         <div className="text-center max-w-3xl mx-auto mb-8">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground">
             Tipos de soluciones que podemos implementar
